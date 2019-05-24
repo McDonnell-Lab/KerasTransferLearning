@@ -1,6 +1,7 @@
 import numpy as np
 
 import keras
+import tensorflow as tf
 from keras.models import Model
 from keras.layers import Dense, GlobalAveragePooling2D, Activation, Lambda
 from keras import backend as K
