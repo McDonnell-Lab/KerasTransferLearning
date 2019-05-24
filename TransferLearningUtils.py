@@ -5,6 +5,7 @@ import tensorflow as tf
 from keras.models import Model
 from keras.layers import Dense, GlobalAveragePooling2D, Activation, Lambda
 from keras import backend as K
+from keras.regularizers import l2
 
 #can be needed for older versions of tensrflow
 def MyAddAxes(x):
